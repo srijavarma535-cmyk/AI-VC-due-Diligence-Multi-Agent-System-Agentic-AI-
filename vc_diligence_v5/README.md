@@ -4,7 +4,7 @@
 
 ---
 
-## Business Problem 
+## Business Problem
 
 - Venture capital due diligence is time-consuming and requires analyzing multiple dimensions (market, team, product, financials, competition, risk).  
 - Human analysts often face information overload from pitch decks, websites, and reports.  
@@ -68,6 +68,9 @@
 ## Architecture Diagram
 
 ![System Architecture](./assests/vc_agent_system_architecture.png)
+
+## Pipeleine Execution 
+
 ![Pipeline Execution](./assests/vc_pipeline_execution_flow.png)
 ---
 
@@ -113,18 +116,18 @@ Docker — https://docs.docker.com
 
 ### Screenshots
 Dashboard — Startup input and analysis results
-![Dashboard](./assests/Screenshot (237).png)
+![Dashboard](./assests/Screenshot%20(237).png)
 
 Agent outputs — Market, Team, Product, Financials, Competition
-![Dashbords](./assests/Screenshot (239).png)
-![Dashbords](./assests/Screenshot (241).png)
-![Dashbords](./assests/Screenshot (245).png)
-![Dashbords](./assests/Screenshot (244).png)
-![Dashbords](./assests/Screenshot (243).png)
+![Dashbords](./assests/Screenshot%20(239).png)
+![Dashbords](./assests/Screenshot%20(241).png)
+![Dashbords](./assests/Screenshot%20(245).png)
+![Dashbords](./assests/Screenshot%20(244).png)
+![Dashbords](./assests/Screenshot%20(243).png)
 
 
 Final Verdict — Investment recommendation
-![Dashboard](./assests/Screenshot (240).png)
+![Dashboard](./assests/Screenshot%20(240).png)
 
 ### Problems Faced & Solutions
 1. Model integration issues

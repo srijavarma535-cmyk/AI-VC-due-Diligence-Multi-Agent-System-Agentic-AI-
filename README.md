@@ -68,6 +68,8 @@
 ## Architecture Diagram
 
 ![System Architecture](./assests/vc_agent_system_architecture.png)
+
+## Pipeleine Execution 
 ![Pipeline Execution](./assests/vc_pipeline_execution_flow.png)
 ---
 
@@ -113,7 +115,7 @@ Docker — https://docs.docker.com
 
 ### Screenshots
 Dashboard — Startup input and analysis results
-![Dashboard](./assests/Screenshot(237).png)
+![Dashboard](./assests/Screenshot%20(237).png)
 
 Agent outputs — Market, Team, Product, Financials, Competition
 ![Dashbords](./assests/Screenshot%20(239).png)
