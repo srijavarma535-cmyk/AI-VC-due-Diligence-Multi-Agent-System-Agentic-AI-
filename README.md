@@ -67,8 +67,8 @@
 
 ## Architecture Diagram
 
-![System Architecture](.\assests\vc_agent_system_architecture.png)
-![Pipeline Execution](.\assests\vc_pipeline_execution_flow.png)
+![System Architecture](./assests/vc_agent_system_architecture.png)
+![Pipeline Execution](./assests/vc_pipeline_execution_flow.png)
 ---
 
 ## How to Run Locally
@@ -97,49 +97,62 @@ http://localhost:8000
 ### References & Resources
 
 Ollama Documentation — https://ollama.ai
+
 LangGraph — https://github.com/langchain-ai/langgraph (github.com in Bing)
+
 FastAPI — https://fastapi.tiangolo.com
+
 BeautifulSoup — https://www.crummy.com/software/BeautifulSoup (crummy.com in Bing)
+
 pdfplumber — https://github.com/jsvine/pdfplumber
+
 Docker — https://docs.docker.com
 
 ### Screen Recording
-[]
+[Click here to watch Execution](https://drive.google.com/file/d/1JQPSCupoQVVQ1i8PTMPoNT6AC2ZXmlGc/view?usp=sharing)
 
 ### Screenshots
 Dashboard — Startup input and analysis results
-![Dashboard](.\assests\Screenshot (237).png)
+![Dashboard](./assests/Screenshot(237).png)
 
 Agent outputs — Market, Team, Product, Financials, Competition
-![Dashbords](.\assests\Screenshot (239).png)
-![Dashbords](.\assests\Screenshot (241).png)
+![Dashbords](./assests/Screenshot%20(239).png)
+![Dashbords](./assests/Screenshot%20(241).png)
+![Dashbords](./assests/Screenshot%20(245).png)
+![Dashbords](./assests/Screenshot%20(244).png)
+![Dashbords](./assests/Screenshot%20(243).png)
 
 
 Final Verdict — Investment recommendation
-![Dashboard](.\assests\Screenshot (240).png)
+![Dashboard](./assests/Screenshot%20(240).png)
 
 ### Problems Faced & Solutions
 1. Model integration issues
 
-Problem: Initial Groq API setup was deprecated.
-Solution: Migrated to Ollama server for local inference.
+    Problem: Initial Groq API setup was deprecated.
+
+    Solution: Migrated to Ollama server for local inference.
 
 2. Large pitch deck parsing
 
-Problem: PDF files exceeded token limits.
-Solution: Implemented smart text chunking with pdfplumber.
+    Problem: PDF files exceeded token limits.
+
+    Solution: Implemented smart text chunking with pdfplumber.
 
 3. Agent coordination errors
 
-Problem: Agents produced inconsistent outputs.
-Solution: Added critic + optimizer loop for refinement.
+    Problem: Agents produced inconsistent outputs.
+
+    Solution: Added critic + optimizer loop for refinement.
 
 4. Environment misconfiguration
 
-Problem: .env file not loaded correctly.
-Solution: Standardized .env.example template and Docker secrets.
+   Problem: .env file not loaded correctly.
+
+   Solution: Standardized .env.example template and Docker secrets.
 
 5. Notification failures
 
-Problem: Pushover alerts not triggered.
-Solution: Debugged API keys and added retry logic.
+   Problem: Pushover alerts not triggered.
+   
+   Solution: Debugged API keys and added retry logic.
