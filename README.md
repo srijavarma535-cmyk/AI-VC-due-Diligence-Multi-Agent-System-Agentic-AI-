@@ -69,7 +69,7 @@
 
 ![System Architecture](./assests/vc_agent_system_architecture.png)
 
-## Pipeleine Execution 
+## Pipeline Execution
 ![Pipeline Execution](./assests/vc_pipeline_execution_flow.png)
 ---
 
